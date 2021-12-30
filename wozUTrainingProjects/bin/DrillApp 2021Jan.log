@@ -1,0 +1,140 @@
+Jan 24, 2021 10:27:44 PM stevem.drill.dao.DrillDAOFactory getDrillDAO
+CONFIG: DrillDAO type set to FILES
+Jan 24, 2021 10:27:44 PM stevem.drill.dao.DrillDAOFactory getDrillDAO
+CONFIG: DrillDAO type set to JAR
+Jan 24, 2021 10:27:44 PM stevem.DrillApp <init>
+INFO: Launching the Drill Application. Level set to CONFIG
+Jan 24, 2021 10:27:45 PM stevem.DrillApp doInitializeDrillState
+INFO: INIT state set
+Jan 24, 2021 10:27:52 PM stevem.drill.controller.QuestionTracker setQuestionSet
+INFO: Question set is from CORE_JAVA
+Jan 24, 2021 10:27:52 PM stevem.drill.dao.DrillJarDAO setUp
+CONFIG: Path used = /stevem/drill/datafiles/corejava/
+Jan 24, 2021 10:27:52 PM stevem.drill.controller.QuestionTracker resetQuestions
+CONFIG: Clearing questions and used questions
+Jan 24, 2021 10:27:54 PM stevem.drill.controller.QuestionTracker resetQuestions
+CONFIG: Clearing questions and used questions
+Jan 24, 2021 10:27:54 PM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file /stevem/drill/datafiles/corejava/chapter1.drill
+Jan 24, 2021 10:27:54 PM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file /stevem/drill/datafiles/corejava/chapter2.drill
+Jan 24, 2021 10:27:54 PM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file /stevem/drill/datafiles/corejava/chapter3.drill
+Jan 24, 2021 10:27:54 PM stevem.drill.dao.DrillJarDAO loadMultipleChapters
+INFO: Found 204 questions.
+Jan 24, 2021 10:28:06 PM stevem.drill.controller.QuestionTracker poseQuestion
+INFO: Q 1.08 Answer Code is: E
+Jan 24, 2021 10:28:40 PM stevem.drill.controller.QuestionTracker checkAnswer
+INFO:  Answer not accepted
+Jan 24, 2021 10:28:48 PM stevem.drill.controller.QuestionTracker poseQuestion
+INFO: Q 2.27 Answer Code is: M
+Jan 24, 2021 10:29:00 PM stevem.drill.controller.QuestionTracker checkAnswer
+INFO:  Answer not accepted
+Jan 24, 2021 10:29:02 PM stevem.drill.controller.QuestionTracker poseQuestion
+INFO: Q 1.24 Answer Code is: E
+Jan 24, 2021 10:29:20 PM stevem.drill.controller.QuestionTracker checkAnswer
+INFO:  Answer not accepted
+Jan 24, 2021 10:29:24 PM stevem.drill.controller.QuestionTracker poseQuestion
+INFO: Q 3.16 Answer Code is: XC
+Jan 24, 2021 10:29:28 PM stevem.drill.controller.QuestionTracker checkAnswer
+INFO:  Correct
+Jan 24, 2021 10:29:30 PM stevem.drill.controller.QuestionTracker poseQuestion
+INFO: Q 1.30 Answer Code is: M
+Jan 24, 2021 10:29:38 PM stevem.drill.controller.QuestionTracker checkAnswer
+INFO:  Answer not accepted
+Jan 24, 2021 10:29:41 PM stevem.drill.controller.QuestionTracker poseQuestion
+INFO: Q 3.25 Answer Code is: M
+Jan 24, 2021 10:29:58 PM stevem.drill.controller.QuestionTracker checkAnswer
+INFO:  Answer not accepted
+Jan 24, 2021 10:30:00 PM stevem.drill.controller.QuestionTracker poseQuestion
+INFO: Q 1.35 Answer Code is: M
+Jan 24, 2021 10:30:04 PM stevem.drill.controller.QuestionTracker checkAnswer
+INFO:  Answer not accepted
+Jan 24, 2021 10:30:07 PM stevem.drill.controller.QuestionTracker poseQuestion
+INFO: Q 1.32 Answer Code is: M
+Jan 24, 2021 10:30:14 PM stevem.drill.controller.QuestionTracker checkAnswer
+INFO:  Answer not accepted
+Jan 24, 2021 10:30:17 PM stevem.drill.controller.QuestionTracker poseQuestion
+INFO: Q 1.46 Answer Code is: default
+Jan 24, 2021 10:30:40 PM stevem.drill.controller.QuestionTracker checkAnswer
+INFO:  Answer not accepted
+Jan 24, 2021 10:30:48 PM stevem.drill.controller.QuestionTracker poseQuestion
+INFO: Q 2.09 Answer Code is: default
+Jan 24, 2021 10:30:57 PM stevem.drill.controller.QuestionTracker checkAnswer
+INFO:  Answer not accepted
+Jan 24, 2021 10:30:57 PM stevem.DrillApp doAnswerState
+INFO: You answered 1 of 10 correctly
+Jan 24, 2021 10:34:23 PM stevem.DrillApp formWindowClosing
+INFO: Application window closed.
+
+
+Jan 26, 2021 9:20:33 AM stevem.drill.dao.DrillDAOFactory getDrillDAO
+CONFIG: DrillDAO type set to FILES
+Jan 26, 2021 9:20:33 AM stevem.drill.dao.DrillDAOFactory getDrillDAO
+CONFIG: DrillDAO type set to JAR
+Jan 26, 2021 9:20:33 AM stevem.DrillApp <init>
+INFO: Launching the Drill Application. Level set to CONFIG
+Jan 26, 2021 9:20:34 AM stevem.DrillApp doInitializeDrillState
+INFO: INIT state set
+Jan 26, 2021 9:20:42 AM stevem.drill.controller.QuestionTracker resetQuestions
+CONFIG: Clearing questions and used questions
+Jan 26, 2021 9:20:42 AM stevem.drill.dao.DrillJarDAO loadAllQuestions
+WARNING: Path not set
+Jan 26, 2021 9:20:45 AM stevem.drill.controller.QuestionTracker resetQuestions
+CONFIG: Clearing questions and used questions
+Jan 26, 2021 9:20:45 AM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file nullchapter1.drill
+Jan 26, 2021 9:20:45 AM stevem.drill.dao.DrillJarDAO readDrillFile
+SEVERE: Could not find nullchapter1.drill
+Jan 26, 2021 9:20:45 AM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file nullchapter2.drill
+Jan 26, 2021 9:20:45 AM stevem.drill.dao.DrillJarDAO readDrillFile
+SEVERE: Could not find nullchapter2.drill
+Jan 26, 2021 9:20:45 AM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file nullchapter3.drill
+Jan 26, 2021 9:20:45 AM stevem.drill.dao.DrillJarDAO readDrillFile
+SEVERE: Could not find nullchapter3.drill
+Jan 26, 2021 9:20:45 AM stevem.drill.dao.DrillJarDAO loadMultipleChapters
+INFO: Found 0 questions.
+Jan 26, 2021 9:21:03 AM stevem.DrillApp doInitializeDrillState
+INFO: INIT state set
+Jan 26, 2021 9:21:05 AM stevem.drill.controller.QuestionTracker resetQuestions
+CONFIG: Clearing questions and used questions
+Jan 26, 2021 9:21:05 AM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file nullchapter1.drill
+Jan 26, 2021 9:21:05 AM stevem.drill.dao.DrillJarDAO readDrillFile
+SEVERE: Could not find nullchapter1.drill
+Jan 26, 2021 9:21:05 AM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file nullchapter2.drill
+Jan 26, 2021 9:21:05 AM stevem.drill.dao.DrillJarDAO readDrillFile
+SEVERE: Could not find nullchapter2.drill
+Jan 26, 2021 9:21:05 AM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file nullchapter3.drill
+Jan 26, 2021 9:21:05 AM stevem.drill.dao.DrillJarDAO readDrillFile
+SEVERE: Could not find nullchapter3.drill
+Jan 26, 2021 9:21:05 AM stevem.drill.dao.DrillJarDAO loadMultipleChapters
+INFO: Found 0 questions.
+Jan 26, 2021 9:21:06 AM stevem.DrillApp doInitializeDrillState
+INFO: INIT state set
+Jan 26, 2021 9:21:09 AM stevem.drill.controller.QuestionTracker setQuestionSet
+INFO: Question set is from CORE_JAVA
+Jan 26, 2021 9:21:09 AM stevem.drill.dao.DrillJarDAO setUp
+CONFIG: Path used = /stevem/drill/datafiles/corejava/
+Jan 26, 2021 9:21:09 AM stevem.drill.controller.QuestionTracker resetQuestions
+CONFIG: Clearing questions and used questions
+Jan 26, 2021 9:21:10 AM stevem.drill.controller.QuestionTracker resetQuestions
+CONFIG: Clearing questions and used questions
+Jan 26, 2021 9:21:10 AM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file /stevem/drill/datafiles/corejava/chapter1.drill
+Jan 26, 2021 9:21:10 AM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file /stevem/drill/datafiles/corejava/chapter2.drill
+Jan 26, 2021 9:21:10 AM stevem.drill.dao.DrillJarDAO readDrillFile
+INFO: reading file /stevem/drill/datafiles/corejava/chapter3.drill
+Jan 26, 2021 9:21:10 AM stevem.drill.dao.DrillJarDAO loadMultipleChapters
+INFO: Found 204 questions.
+Jan 26, 2021 9:21:12 AM stevem.drill.controller.QuestionTracker poseQuestion
+INFO: Q 3.43 Answer Code is: XC
+Jan 26, 2021 9:21:16 AM stevem.DrillApp formWindowClosing
+INFO: Application window closed.
+
+
